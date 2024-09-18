@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRAKTIKUM HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>PROFILE MAHASISWA</h1>
+    
+    <h2>BIOGRAFI</h2>
+    <p>HAI perkenalkan nama saya I Komang Agus Setiawan, saya lahir di Denpasar pada tanggal 18 Juli 2004</p>
+    
+    <h2>PENDIDIKAN</h2>
+    <p>Saya sedang kuliah</p>
+    
+    <h3>Kontak Saya</h3>
+    <p>Call 081946420818</p>
+    <p>Anda juga dapat menghubungi saya melalui instagram di <a href="https://www.instagram.com/ag.setiawannn">https://www.instagram.com/ag.setiawannn</a>.</p>
+    
+    <h4>PROYEK TERAKHIR</h4>
+    <p>Akhir proyek</p>
+    
+    <img src="pasangan.png" alt="Pasangan" width="120" height="155">
+    
+    <h2>Hobi Saya</h2>
+    <ul>
+        <li>Fingerboarding</li>
+        <li>Gaming</li>
+        <li>Adventure</li>
+    </ul>
+    
+    <h2>Riwayat Pendidikan</h2>
+    <ol>
+        <li>SD Negeri 14 Pemecutan</li>
+        <li>SMP Negeri 4 Denpasar</li>
+        <li>SMK TI Global</li>
+    </ol>
+    
+    <h2>Jadwal Kuliah</h2>
+    <table border="1">
+        <tr>
+            <th>Hari</th>
+            <th>Mata Kuliah</th>
+            <th>Waktu</th>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>Pengantar kecerdasan buatan</td>
+            <td>08:00 - 10:00</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>Komputasi cloud</td>
+            <td>11:00 - 13:00</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>Pemograman web</td>
+            <td>11:00 - 13:00</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>Metodologi penelitian dan publikasi ilmiah</td>
+            <td>11:00 - 13:00</td>
+        </tr>
+    </table>
+    
+    <h2>Formulir Kontak</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="fullname" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="emailaddr" required><br><br>
+        
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="usermessage" rows="4" required></textarea><br><br>
+        
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
